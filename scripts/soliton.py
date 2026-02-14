@@ -56,7 +56,7 @@ HEADERS = {
     "Accept": "application/json, text/javascript, */*; q=0.01",
     "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
     "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8,ru;q=0.7,az;q=0.6",
-    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Encoding": "gzip, deflate, br",   # zstd unsupported by aiohttp
     "Origin": BASE_URL,
     "Referer": LISTING_URL,
     "X-Requested-With": "XMLHttpRequest",
